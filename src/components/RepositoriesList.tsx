@@ -51,7 +51,7 @@ const RepositoriesList: React.FC = () => {
         <input
           name="search-bar"
           type="text"
-          placeholder="Vd: React hoặc react-redux hoặc react redux"
+          placeholder="Vd: React hoặc react redux"
           className="input"
           value={term}
           onChange={(e) => setTerm(e.target.value)}

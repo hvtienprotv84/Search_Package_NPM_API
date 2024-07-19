@@ -106,7 +106,7 @@ Maintenance: ${(repo.score.detail.maintenance * 100).toFixed(0)}%`}
           </div>
         </div>
       </div>
-      <p>{repo.package.description}</p>
+      <p className='decs'>{repo.package.description}</p>
       <div className="links">
         <a href={repo.package.links.homepage}>Homepage</a>
         <a href={repo.package.links.repository}>Repository</a>

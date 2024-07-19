@@ -3,6 +3,7 @@
 - TypeScript
 - Redux
 - Axios
+- Responsive Web và Mobile
 
 # RUN
 - `yarn`

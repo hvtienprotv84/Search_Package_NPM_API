@@ -7,6 +7,15 @@
     max-width: 300px;
   }
 
+  .search-bar ::placeholder{
+    font-size: 16px;
+  }
+
+  #loading_search{
+    font-size: 24px;
+
+  }
+
   .repositories {
     grid-template-columns: 1fr 1fr;
     gap: 1px;
@@ -20,8 +29,21 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     /* margin-top: 10px; */
+    font-size: 10px;
   }
   .repository-card-score {
     margin-top: 6px;
+  }
+  .container_logo_itme{
+    display: none;
+  }
+  .container_logo_itme_npm{
+    display: none;
+  }
+  .repository-card-title{
+    font-size: 8px;
+  }
+  .decs{
+    font-size: 10px;
   }
 }
