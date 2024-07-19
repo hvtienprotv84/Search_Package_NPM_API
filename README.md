@@ -1,4 +1,4 @@
-# Search NPM - Tìm Kiếm Package NPM API
+# Search Package NPM - Tìm Kiếm Gói NPM API
 - ReactJS
 - TypeScript
 - Redux
