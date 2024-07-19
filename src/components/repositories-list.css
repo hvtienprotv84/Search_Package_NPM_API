@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  /* background-color: #261111; */
+  background-image: linear-gradient(rgba(0, 8, 51, 0.9), rgba(0, 8, 51, 0.9)),
+    url('https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/03/npm.png?resize=1024%2C512&ssl=1');
+    background-size: cover;
+  /* min-height: 100vh; */
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  border-radius: 60px;
+  margin: 40px;
+  width: 100%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  backdrop-filter: blur(4px) saturate(180%);
+  margin-top: 10px;
+}
+
+.repositories {
+  color: #cac7ff;
+  /* text-align: center;
+  font-size: 30px;
+  margin-top: -50px; */
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+
+}
+
+#loading_search{
+  position: absolute;
+  margin: 0 auto;
+  font-size: 30px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -150px;
+}
+
+.repo {
+  /* max-width: 160px; */
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.25);
+  border: 0;
+  border-radius: 8px;
+}
+.search-bar input {
+  width: 100%;
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: #cac7ff;
+}
+
+::placeholder {
+  color: #cac7ff;
+}
+
+.search-bar button img {
+  width: 25px;
+}
+
+.search-bar button {
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #58629b;
+  cursor: pointer;
+}
+
+.logo_itme{
+  position: absolute;
+  width: 100px;
+  /* left: 0; */
+  /* margin-top: -30px;
+  margin-left: 20px; */
+}
+
+.container_logo_itme{
+  position: absolute;
+  display: flex;
+  left: 0;
+  color: white;
+  margin-left: 30px;
+  margin-top: 18px;
+  top: 0;
+}
+
+.container_logo_itme a{
+  text-decoration: none;
+}
+
+.container_logo_itme p{
+  margin-left: 145px;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 30px;
+  color: transparent;
+  -webkit-text-stroke: .05rem rgb(255, 255, 255);
+}
+
+.logo_itme_npm{
+  position: absolute;
+  width: 100px;
+  /* left: 0; */
+  /* margin-top: -30px;
+  margin-left: 20px; */
+  right: 0;
+}
+
+.container_logo_itme_npm{
+  position: absolute;
+  display: flex;
+  right: 0;
+  color: white;
+  margin-right: 30px;
+  margin-top: 18px;
+  top: 0;
+}
+
+.container_logo_itme_npm a{
+  text-decoration: none;
+}
+
+.container_logo_itme_npm p{
+  position: absolute;
+  margin-left: -370px;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 30px;
+  color: transparent;
+  -webkit-text-stroke: .05rem rgb(255, 255, 255);
+}

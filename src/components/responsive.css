@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+  .body {
+    background-image: linear-gradient(rgba(0, 8, 51, 0.9), rgba(0, 8, 51, 0.9)),
+      url('https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/03/npm.png?resize=1024%2C512&ssl=1');
+  }
+  .search-bar {
+    max-width: 300px;
+  }
+
+  .repositories {
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+  }
+  .repo {
+    max-width: 160px;
+  }
+
+  .links {
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* margin-top: 10px; */
+  }
+  .repository-card-score {
+    margin-top: 6px;
+  }
+}
